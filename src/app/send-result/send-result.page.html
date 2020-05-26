@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="row">
+      <ion-col sizeSm="8" class="col">
+        <form>
+          <ng-container>
+            <ion-item>
+              <ion-icon name="person" color="primary" slot="start"></ion-icon>
+              <ion-input type="text" placeholder="Name" [(ngModel)]="form.name" name="name"></ion-input>
+            </ion-item>
+          </ng-container>
+
+          <ion-item>
+            <ion-icon name="mail" color="primary" slot="start"></ion-icon>
+            <ion-input type="email" placeholder="Email" [(ngModel)]="form.email" name="email"></ion-input>
+          </ion-item>
+
+          <ion-button expand="block" type="submit" (click)="sendResult()">Enviar resultado</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+    <div class="footer">
+      <a href="https://mchatscreen.com/" class="text-center footer">&copy;2009 Robins, Fein, & Barton</a>
+    </div>
+  </ion-grid>
+</ion-content>

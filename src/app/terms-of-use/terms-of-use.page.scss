@@ -1,0 +1,47 @@
+.title-term {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.term {
+  justify-content: center;
+}
+
+.btn-term {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: medium;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: large;
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
